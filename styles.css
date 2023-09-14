@@ -1,0 +1,53 @@
+/* body ekata background color ekk dala, wateta his thiyanna ona nisa padding ekk dala */
+
+body{
+    background-color: #e6f3ff;
+    padding:12%;
+}
+
+
+.tagline {
+    color:blueviolet;
+    font-style:italic;
+}
+
+/* image eka dakunata aran */
+img{
+    float:right;
+}
+
+/* price list kiyana eka table ekata wada godak ud thiyana nisa eke top ekata witharak padding ekk dala */
+.pricetopic{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+/* table ekata wateta boader ekk dala, palala screen eke palalama dila */
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+
+/* eka eka colomn wala text tika eka peliyata pelagassala  */
+td, th {
+    text-align: left;
+    padding:16px;
+}
+footer{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 10px;
+   padding: 3px;
+   background-color: orange;
+
+   /* text color eka black karala */
+   color: black;
+
+   /* position eka fixed dunnama eka adala thenama fix wenawa */
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+
+}
